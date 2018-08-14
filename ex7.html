@@ -1,0 +1,22 @@
+<ul>
+	<li>test</li>
+	<li><a href="">Google</a></li>
+	<a href="">Yahoo</a>
+</ul>
+<style>
+	ul{
+		border:1px solid;
+	}
+	/*it consider child-li and grandchild-a of parent ul*/
+	ul a{
+		color:red;
+	}
+	/* it specifically select the a which is immediate child of ul*/
+	ul>a{
+		background:green;
+	}
+	/* it select parent>child li>his child a*/
+	ul>li>a{
+		background:grey;
+	}
+</style>
