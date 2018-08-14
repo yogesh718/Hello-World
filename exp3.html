@@ -1,0 +1,18 @@
+create database projectdb
+create table users(
+name varchar(255)
+salary int)
+insert into users values('vidhi',250)
+insert into users values('vii',150)
+
+
+update users set salary=330 where name='xyz';
+delete from users where name='vidhi',where salary=150;
+select name,salary from users;
+select name,salary from users where salary<200;
+select name,salary from users where salary>200 and salary<350;
+select name,salary from users order by salary asc;
+select name,salary from users where name like 'v%;
+select count(name) from users
+select sum(salary) from users
+select min(salary) from users
