@@ -1,0 +1,56 @@
+
+<div class="container">
+	<div class="col3 text-center">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.
+		<p><button class="btn">Enter</button></p>
+	</div>
+	<div class="col3 text-left">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.
+
+		
+	</div>
+	<div class="col3 pull-right text-justify">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. 
+	</div>
+</div>
+<style type="text/css">
+	.container{
+		width: 1000px;
+		margin:auto;
+		border:1px solid;
+	}
+	.col3{
+		width: 25%;
+		background: grey;
+		float: left;
+	}
+	.container:after{
+		display: block;
+		content: "";
+		clear: both;
+
+	}
+	.pull-right{
+		float:right;
+	}
+	.text-justify{
+		text-align:justify;
+	}
+	.text-center{
+		text-align: center;
+	}
+	.text-left{
+		text-align: left;
+	}
+	.btn{
+		width: 90px;
+		height: 30px;
+		background: rgb(250,250,250);
+		border: 0;
+		border-radius: 5px;
+		box-shadow: 1px 2px 4px #999999;
+	}
+</style>
